@@ -2,27 +2,28 @@
 # Arduino IDE build files
 # =========================
 
-# Ignorar todo lo que genere el build
+# Ignorar carpetas de build
+build/*
+build-*/
+*.build/
+
+# PERMITIR SOLO el .ino.hex dentro de build/
+!build/*.ino.hex
+
+# =========================
+# Otros binarios Arduino
+# =========================
 *.elf
 *.eep
 *.bin
 *.with_bootloader
 *.with_bootloader.hex
 
-# Ignorar temporales del IDE
+# =========================
+# Temporales del sistema / IDE
+# =========================
 *.tmp
 *.bak
 *.log
-
-# Carpetas de compilación (Arduino IDE / CLI)
-build/
-build-*/
-*.build/
 .cache/
 .tmp/
-
-# Ignorar TODO .hex...
-*.hex
-
-# ...EXCEPTO los .ino.hex
-!*.ino.hex
