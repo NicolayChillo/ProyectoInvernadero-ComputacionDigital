@@ -1,0 +1,533 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,-244" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,-92" rotation="0" hflip="1" vflip="1" label="Led-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-144" rotation="0" hflip="1" vflip="1" label="Led-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="32 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-6" mainComp="false" Show_id="false" Show_Val="false" Pos="224,-44" rotation="0" hflip="1" vflip="1" label="Led-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-7" mainComp="false" Show_id="false" Show_Val="false" Pos="28,-48" rotation="0" hflip="1" vflip="1" label="Led-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-18" mainComp="false" Show_id="false" Show_Val="false" Pos="412,12" rotation="0" hflip="1" vflip="1" label="DcMotor-18" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="300 _RPM" Volt_Nominal="5 V" Resistance="1 kΩ" />
+
+<item itemtype="Led" CircId="Led-26" mainComp="false" Show_id="false" Show_Val="false" Pos="320,-140" rotation="0" hflip="1" vflip="1" label="Led-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-27" mainComp="false" Show_id="false" Show_Val="false" Pos="264,-88" rotation="0" hflip="1" vflip="1" label="Led-27" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-34" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-608,184" rotation="0" hflip="1" vflip="1" label="Potentiometer-34" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1 kΩ" Value_Ohm="993 Ω" Slider="false" Scale="2" />
+
+<item itemtype="Led" CircId="Led-37" mainComp="false" Show_id="false" Show_Val="false" Pos="436,-240" rotation="0" hflip="1" vflip="1" label="Led-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="-0.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-88,228" rotation="-180" hflip="-1" vflip="1" label="Led-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,152" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-45" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Led" CircId="Led-53" mainComp="false" Show_id="false" Show_Val="false" Pos="80,52" rotation="-180" hflip="-1" vflip="1" label="Led-53" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,184" rotation="-180" hflip="-1" vflip="1" label="Led-54" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-55" mainComp="false" Show_id="false" Show_Val="false" Pos="344,220" rotation="-180" hflip="1" vflip="1" label="Led-55" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-56" mainComp="false" Show_id="false" Show_Val="false" Pos="312,184" rotation="0" hflip="-1" vflip="1" label="Led-56" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-57" mainComp="false" Show_id="false" Show_Val="false" Pos="284,152" rotation="0" hflip="-1" vflip="1" label="Led-57" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-58" mainComp="false" Show_id="false" Show_Val="false" Pos="224,100" rotation="0" hflip="-1" vflip="1" label="Led-58" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Led" CircId="Led-59" mainComp="false" Show_id="false" Show_Val="false" Pos="176,52" rotation="0" hflip="-1" vflip="1" label="Led-59" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-100,228" rotation="-360" hflip="1" vflip="1" label="Tunnel-60" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-68,184" rotation="-360" hflip="1" vflip="1" label="Tunnel-61" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-65" mainComp="false" Show_id="false" Show_Val="false" Pos="16,92" rotation="-360" hflip="1" vflip="1" label="Tunnel-65" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-66" mainComp="false" Show_id="false" Show_Val="false" Pos="28,92" rotation="-180" hflip="-1" vflip="1" label="Led-66" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-69" mainComp="false" Show_id="false" Show_Val="false" Pos="72,52" rotation="-360" hflip="1" vflip="1" label="Tunnel-69" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="188,52" rotation="360" hflip="-1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-71" mainComp="false" Show_id="false" Show_Val="false" Pos="236,100" rotation="360" hflip="-1" vflip="1" label="Tunnel-71" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-72" mainComp="false" Show_id="false" Show_Val="false" Pos="292,152" rotation="360" hflip="-1" vflip="1" label="Tunnel-72" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-73" mainComp="false" Show_id="false" Show_Val="false" Pos="324,184" rotation="360" hflip="-1" vflip="1" label="Tunnel-73" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-74" mainComp="false" Show_id="false" Show_Val="false" Pos="356,220" rotation="360" hflip="-1" vflip="1" label="Tunnel-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Image" CircId="Image-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,8" rotation="0" hflip="1" vflip="1" label="Image-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="1306 _px" V_size="746 _px" Border="0 _px" Z_Value="-1" Color="#a0a0a4" Opacity="0" Image_File="../../../../../../EQUIPO/Pictures/Screenshots/Captura de pantalla 2026-01-28 101038.png" />
+
+<item itemtype="Tunnel" CircId="Tunnel-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,152" rotation="0" hflip="-1" vflip="1" label="Tunnel-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,136" rotation="-180" hflip="-1" vflip="1" label="Led-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Blue" Grounded="true" Threshold="2.6 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-78" mainComp="false" Show_id="false" Show_Val="false" Pos="-28,136" rotation="-360" hflip="1" vflip="1" label="Tunnel-78" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Riego" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-80,-144" rotation="0" hflip="1" vflip="1" label="Tunnel-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-24,-92" rotation="0" hflip="1" vflip="1" label="Tunnel-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-81" mainComp="false" Show_id="false" Show_Val="false" Pos="12,-48" rotation="0" hflip="1" vflip="1" label="Tunnel-81" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-83" mainComp="false" Show_id="false" Show_Val="false" Pos="208,-44" rotation="0" hflip="1" vflip="1" label="Tunnel-83" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-84" mainComp="false" Show_id="false" Show_Val="false" Pos="248,-88" rotation="0" hflip="1" vflip="1" label="Tunnel-84" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-85" mainComp="false" Show_id="false" Show_Val="false" Pos="304,-140" rotation="0" hflip="1" vflip="1" label="Tunnel-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-86" mainComp="false" Show_id="false" Show_Val="false" Pos="-192,-244" rotation="0" hflip="1" vflip="1" label="Tunnel-86" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-87" mainComp="false" Show_id="false" Show_Val="false" Pos="420,-240" rotation="0" hflip="1" vflip="1" label="Tunnel-87" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-90" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,128" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-90" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-91" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,128" rotation="0" hflip="-1" vflip="1" label="Tunnel-91" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Luz" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-102" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,12" rotation="0" hflip="1" vflip="1" label="Tunnel-102" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Ventilador" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,12" rotation="0" hflip="-1" vflip="1" label="Tunnel-103" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="DcMotor" CircId="DcMotor-104" mainComp="false" Show_id="false" Show_Val="false" Pos="-148,12" rotation="0" hflip="1" vflip="1" label="DcMotor-104" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="300 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="LedBar" CircId="LedBar-106" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-12" rotation="-90" hflip="1" vflip="1" label="LedBar-106" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Purple" Size="1 _Leds" Grounded="true" Threshold="2.5 V" MaxCurrent="30 mA" Resistance="220 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-107" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,96" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-107" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-108" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,96" rotation="0" hflip="-1" vflip="1" label="Tunnel-108" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Ventana" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-109" mainComp="false" Show_id="false" Show_Val="false" Pos="128,4" rotation="-90" hflip="1" vflip="1" label="Tunnel-109" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Ventana" IsBus="false" />
+
+<item itemtype="Rectangle" CircId="Rectangle-111" mainComp="false" Show_id="false" Show_Val="false" Pos="-500,-116" rotation="0" hflip="1" vflip="1" label="Rectangle-111" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="500 _px" V_size="200 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Subcircuit" CircId="Mega-21" mainComp="false" Show_id="true" Show_Val="false" Pos="636,-176" rotation="0" hflip="1" vflip="1" label="Mega-21" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="invernadero/build/arduino.avr.mega/invernadero.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Tunnel" CircId="Tunnel-117" mainComp="false" Show_id="false" Show_Val="false" Pos="632,-16" rotation="0" hflip="1" vflip="1" label="Tunnel-117" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Ventilador" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-119" mainComp="false" Show_id="false" Show_Val="false" Pos="632,64" rotation="0" hflip="1" vflip="1" label="Tunnel-119" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-97" mainComp="false" Show_id="false" Show_Val="false" Pos="368,12" rotation="0" hflip="1" vflip="1" label="Tunnel-97" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Ventilador" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-122" mainComp="false" Show_id="false" Show_Val="false" Pos="452,12" rotation="0" hflip="-1" vflip="1" label="Tunnel-122" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Probe" CircId="Probe-123" mainComp="false" Show_id="false" Show_Val="true" Pos="144,308" rotation="-45" hflip="1" vflip="1" label="Probe-123" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Hd44780" CircId="Hd44780-164" mainComp="false" Show_id="true" Show_Val="false" Pos="-728,-132" rotation="0" hflip="1" vflip="1" label="Hd44780-164" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Tunnel" CircId="Tunnel-165" mainComp="false" Show_id="false" Show_Val="false" Pos="-712,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-165" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 31" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-166" mainComp="false" Show_id="false" Show_Val="false" Pos="-704,-120" rotation="-90" hflip="1" vflip="1" label="Tunnel-166" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-167" mainComp="false" Show_id="false" Show_Val="false" Pos="-696,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-167" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 35" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-168" mainComp="false" Show_id="false" Show_Val="false" Pos="-656,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-168" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 45" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-169" mainComp="false" Show_id="false" Show_Val="false" Pos="-648,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-169" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 47" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-170" mainComp="false" Show_id="false" Show_Val="false" Pos="-640,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-170" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 49" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-171" mainComp="false" Show_id="false" Show_Val="false" Pos="-632,-128" rotation="-90" hflip="1" vflip="1" label="Tunnel-171" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 51" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-172" mainComp="false" Show_id="false" Show_Val="false" Pos="764,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-172" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 51" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-173" mainComp="false" Show_id="false" Show_Val="false" Pos="756,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-173" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 49" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-174" mainComp="false" Show_id="false" Show_Val="false" Pos="684,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-174" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 31" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-176" mainComp="false" Show_id="false" Show_Val="false" Pos="748,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-176" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 47" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-177" mainComp="false" Show_id="false" Show_Val="false" Pos="740,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-177" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 45" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-178" mainComp="false" Show_id="false" Show_Val="false" Pos="700,-160" rotation="-270" hflip="1" vflip="1" label="Tunnel-178" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 35" IsBus="false" />
+
+<item itemtype="Rectangle" CircId="Rectangle-181" mainComp="false" Show_id="false" Show_Val="false" Pos="-540,184" rotation="0" hflip="1" vflip="1" label="Rectangle-181" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="25 _px" V_size="85 _px" Border="2 _px" Z_Value="-1" Color="#c5c5ac" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-182" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,200" rotation="0" hflip="1" vflip="1" label="Rectangle-182" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="50 _px" Border="0 _px" Z_Value="-1" Color="#00ffff" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-183" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,160" rotation="0" hflip="1" vflip="1" label="Rectangle-183" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="30 _px" Border="0 _px" Z_Value="-1" Color="#ffffff" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-184" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,224" rotation="0" hflip="1" vflip="1" label="Rectangle-184" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="7 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-185" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,204" rotation="0" hflip="1" vflip="1" label="Rectangle-185" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="7 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-186" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,184" rotation="0" hflip="1" vflip="1" label="Rectangle-186" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="7 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-187" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,164" rotation="0" hflip="1" vflip="1" label="Rectangle-187" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="7 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-188" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,144" rotation="0" hflip="1" vflip="1" label="Rectangle-188" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="7 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-189" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,220" rotation="0" hflip="1" vflip="1" label="Rectangle-189" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-190" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,216" rotation="0" hflip="1" vflip="1" label="Rectangle-190" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-191" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,212" rotation="0" hflip="1" vflip="1" label="Rectangle-191" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-192" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,208" rotation="0" hflip="1" vflip="1" label="Rectangle-192" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-193" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,196" rotation="0" hflip="1" vflip="1" label="Rectangle-193" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-194" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,192" rotation="0" hflip="1" vflip="1" label="Rectangle-194" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-195" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,200" rotation="0" hflip="1" vflip="1" label="Rectangle-195" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-196" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,188" rotation="0" hflip="1" vflip="1" label="Rectangle-196" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-197" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,176" rotation="0" hflip="1" vflip="1" label="Rectangle-197" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-198" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,172" rotation="0" hflip="1" vflip="1" label="Rectangle-198" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-199" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,180" rotation="0" hflip="1" vflip="1" label="Rectangle-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-200" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,168" rotation="0" hflip="1" vflip="1" label="Rectangle-200" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-201" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,156" rotation="0" hflip="1" vflip="1" label="Rectangle-201" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-202" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,152" rotation="0" hflip="1" vflip="1" label="Rectangle-202" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-203" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,160" rotation="0" hflip="1" vflip="1" label="Rectangle-203" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-204" mainComp="false" Show_id="false" Show_Val="false" Pos="-544,148" rotation="0" hflip="1" vflip="1" label="Rectangle-204" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="3 _px" V_size="1 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Tunnel" CircId="Tunnel-207" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,184" rotation="0" hflip="1" vflip="1" label="Tunnel-207" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-210" mainComp="false" Show_id="false" Show_Val="false" Pos="-592,184" rotation="0" hflip="-1" vflip="1" label="Tunnel-210" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-211" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,200" rotation="-90" hflip="1" vflip="1" label="Tunnel-211" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin A2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-212" mainComp="false" Show_id="false" Show_Val="false" Pos="804,-8" rotation="0" hflip="-1" vflip="1" label="Tunnel-212" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin A0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-213" mainComp="false" Show_id="false" Show_Val="false" Pos="808,32" rotation="0" hflip="-1" vflip="1" label="Tunnel-213" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-214" mainComp="false" Show_id="false" Show_Val="false" Pos="12,228" rotation="-90" hflip="1" vflip="1" label="Tunnel-214" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin A1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-215" mainComp="false" Show_id="false" Show_Val="false" Pos="-4,196" rotation="0" hflip="1" vflip="1" label="Tunnel-215" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-216" mainComp="false" Show_id="false" Show_Val="false" Pos="28,196" rotation="0" hflip="-1" vflip="1" label="Tunnel-216" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-217" mainComp="false" Show_id="false" Show_Val="false" Pos="12,196" rotation="0" hflip="1" vflip="1" label="Potentiometer-217" idLabPos="-16,-40" labelrot="0" valLabPos="10.3286,-20.7187" valLabRot="0" Resistance="1 kΩ" Value_Ohm="1000 Ω" Slider="false" Scale="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-218" mainComp="false" Show_id="false" Show_Val="false" Pos="12,188" rotation="0" hflip="1" vflip="1" label="Rectangle-218" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="85 _px" V_size="47 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-220" mainComp="false" Show_id="false" Show_Val="false" Pos="12,220" rotation="0" hflip="1" vflip="1" label="Rectangle-220" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="15 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-221" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,172" rotation="0" hflip="1" vflip="1" label="Rectangle-221" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-222" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,176" rotation="0" hflip="1" vflip="1" label="Rectangle-222" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-223" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,180" rotation="0" hflip="1" vflip="1" label="Rectangle-223" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-224" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,184" rotation="0" hflip="1" vflip="1" label="Rectangle-224" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-225" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,188" rotation="0" hflip="1" vflip="1" label="Rectangle-225" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-226" mainComp="false" Show_id="false" Show_Val="false" Pos="40,188" rotation="0" hflip="1" vflip="1" label="Rectangle-226" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-227" mainComp="false" Show_id="false" Show_Val="false" Pos="40,180" rotation="0" hflip="1" vflip="1" label="Rectangle-227" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-228" mainComp="false" Show_id="false" Show_Val="false" Pos="40,176" rotation="0" hflip="1" vflip="1" label="Rectangle-228" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-229" mainComp="false" Show_id="false" Show_Val="false" Pos="40,172" rotation="0" hflip="1" vflip="1" label="Rectangle-229" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-230" mainComp="false" Show_id="false" Show_Val="false" Pos="40,184" rotation="0" hflip="1" vflip="1" label="Rectangle-230" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Ellipse" CircId="Ellipse-231" mainComp="false" Show_id="false" Show_Val="false" Pos="48,204" rotation="0" hflip="1" vflip="1" label="Ellipse-231" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="5 _px" Border="0 _px" Z_Value="-1" Color="#aa0000" Opacity="1" />
+
+<item itemtype="Tunnel" CircId="Tunnel-233" mainComp="false" Show_id="false" Show_Val="false" Pos="112,280" rotation="0" hflip="1" vflip="1" label="Tunnel-233" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-236" mainComp="false" Show_id="false" Show_Val="false" Pos="128,332" rotation="-90" hflip="1" vflip="1" label="Tunnel-236" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin A0" IsBus="false" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-237" mainComp="false" Show_id="false" Show_Val="false" Pos="128,280" rotation="0" hflip="1" vflip="1" label="Potentiometer-237" idLabPos="-16,-40" labelrot="0" valLabPos="10.3286,-20.7187" valLabRot="0" Resistance="1 kΩ" Value_Ohm="137 Ω" Slider="false" Scale="2" />
+
+<item itemtype="Rectangle" CircId="Rectangle-239" mainComp="false" Show_id="false" Show_Val="false" Pos="128,300" rotation="0" hflip="1" vflip="1" label="Rectangle-239" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="15 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Tunnel" CircId="Tunnel-240" mainComp="false" Show_id="false" Show_Val="false" Pos="144,280" rotation="0" hflip="-1" vflip="1" label="Tunnel-240" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Gnd" IsBus="false" />
+
+<item itemtype="Rectangle" CircId="Rectangle-249" mainComp="false" Show_id="false" Show_Val="false" Pos="128,260" rotation="0" hflip="1" vflip="1" label="Rectangle-249" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="85 _px" V_size="70 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-250" mainComp="false" Show_id="false" Show_Val="false" Pos="128,340" rotation="0" hflip="1" vflip="1" label="Rectangle-250" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="10 _px" V_size="60 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Ellipse" CircId="Ellipse-252" mainComp="false" Show_id="false" Show_Val="false" Pos="164,288" rotation="0" hflip="1" vflip="1" label="Ellipse-252" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="5 _px" Border="0 _px" Z_Value="-1" Color="#aa0000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-262" mainComp="false" Show_id="false" Show_Val="false" Pos="160,260" rotation="0" hflip="1" vflip="1" label="Rectangle-262" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-261" mainComp="false" Show_id="false" Show_Val="false" Pos="160,256" rotation="0" hflip="1" vflip="1" label="Rectangle-261" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-260" mainComp="false" Show_id="false" Show_Val="false" Pos="160,268" rotation="0" hflip="1" vflip="1" label="Rectangle-260" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-259" mainComp="false" Show_id="false" Show_Val="false" Pos="96,264" rotation="0" hflip="1" vflip="1" label="Rectangle-259" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-258" mainComp="false" Show_id="false" Show_Val="false" Pos="96,268" rotation="0" hflip="1" vflip="1" label="Rectangle-258" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-257" mainComp="false" Show_id="false" Show_Val="false" Pos="96,272" rotation="0" hflip="1" vflip="1" label="Rectangle-257" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-256" mainComp="false" Show_id="false" Show_Val="false" Pos="160,264" rotation="0" hflip="1" vflip="1" label="Rectangle-256" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-255" mainComp="false" Show_id="false" Show_Val="false" Pos="96,260" rotation="0" hflip="1" vflip="1" label="Rectangle-255" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-254" mainComp="false" Show_id="false" Show_Val="false" Pos="160,272" rotation="0" hflip="1" vflip="1" label="Rectangle-254" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-253" mainComp="false" Show_id="false" Show_Val="false" Pos="96,256" rotation="0" hflip="1" vflip="1" label="Rectangle-253" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-270" mainComp="false" Show_id="false" Show_Val="false" Pos="-376,-80" rotation="0" hflip="1" vflip="1" label="Seven Segment-270" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" NumDisplays="4" Vertical_Pins="false" CommonCathode="false" Threshold="0.4 V" MaxCurrent="20 mA" Resistance="100 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-271" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-104" rotation="0" hflip="1" vflip="1" label="Tunnel-271" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="a" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-272" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-96" rotation="0" hflip="1" vflip="1" label="Tunnel-272" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-273" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-88" rotation="0" hflip="1" vflip="1" label="Tunnel-273" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="c" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-274" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-80" rotation="0" hflip="1" vflip="1" label="Tunnel-274" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="d" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-275" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-72" rotation="0" hflip="1" vflip="1" label="Tunnel-275" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="e" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-276" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-64" rotation="0" hflip="1" vflip="1" label="Tunnel-276" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="f" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-277" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-56" rotation="0" hflip="1" vflip="1" label="Tunnel-277" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="g" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-278" mainComp="false" Show_id="false" Show_Val="false" Pos="-384,-40" rotation="90" hflip="1" vflip="-1" label="Tunnel-278" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="." IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-279" mainComp="false" Show_id="false" Show_Val="false" Pos="-368,-48" rotation="90" hflip="1" vflip="-1" label="Tunnel-279" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-280" mainComp="false" Show_id="false" Show_Val="false" Pos="-336,-48" rotation="90" hflip="1" vflip="-1" label="Tunnel-280" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-281" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,-48" rotation="90" hflip="1" vflip="-1" label="Tunnel-281" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-282" mainComp="false" Show_id="false" Show_Val="false" Pos="-272,-48" rotation="90" hflip="1" vflip="-1" label="Tunnel-282" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 3" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-283" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-72" rotation="360" hflip="1" vflip="-1" label="Tunnel-283" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="." IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-284" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-88" rotation="0" hflip="1" vflip="1" label="Tunnel-284" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="f" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-285" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-40" rotation="0" hflip="1" vflip="-1" label="Tunnel-285" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 2" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-286" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-96" rotation="0" hflip="1" vflip="1" label="Tunnel-286" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="e" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-287" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-32" rotation="0" hflip="1" vflip="-1" label="Tunnel-287" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 3" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-288" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-80" rotation="0" hflip="1" vflip="1" label="Tunnel-288" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="g" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-289" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-104" rotation="0" hflip="1" vflip="1" label="Tunnel-289" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="d" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-290" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-48" rotation="0" hflip="1" vflip="-1" label="Tunnel-290" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 1" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-291" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-120" rotation="0" hflip="1" vflip="1" label="Tunnel-291" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="b" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-292" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-112" rotation="0" hflip="1" vflip="1" label="Tunnel-292" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="c" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-293" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-56" rotation="0" hflip="1" vflip="-1" label="Tunnel-293" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Pin 0" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-294" mainComp="false" Show_id="false" Show_Val="false" Pos="636,-128" rotation="0" hflip="1" vflip="1" label="Tunnel-294" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="a" IsBus="false" />
+
+<item itemtype="Rectangle" CircId="Rectangle-295" mainComp="false" Show_id="false" Show_Val="false" Pos="96,248" rotation="0" hflip="1" vflip="1" label="Rectangle-295" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-296" mainComp="false" Show_id="false" Show_Val="false" Pos="96,244" rotation="0" hflip="1" vflip="1" label="Rectangle-296" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-297" mainComp="false" Show_id="false" Show_Val="false" Pos="96,252" rotation="0" hflip="1" vflip="1" label="Rectangle-297" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-298" mainComp="false" Show_id="false" Show_Val="false" Pos="96,240" rotation="0" hflip="1" vflip="1" label="Rectangle-298" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-299" mainComp="false" Show_id="false" Show_Val="false" Pos="96,236" rotation="0" hflip="1" vflip="1" label="Rectangle-299" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-305" mainComp="false" Show_id="false" Show_Val="false" Pos="160,236" rotation="0" hflip="1" vflip="1" label="Rectangle-305" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-306" mainComp="false" Show_id="false" Show_Val="false" Pos="160,252" rotation="0" hflip="1" vflip="1" label="Rectangle-306" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-307" mainComp="false" Show_id="false" Show_Val="false" Pos="160,244" rotation="0" hflip="1" vflip="1" label="Rectangle-307" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-308" mainComp="false" Show_id="false" Show_Val="false" Pos="160,240" rotation="0" hflip="1" vflip="1" label="Rectangle-308" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-309" mainComp="false" Show_id="false" Show_Val="false" Pos="160,248" rotation="0" hflip="1" vflip="1" label="Rectangle-309" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-310" mainComp="false" Show_id="false" Show_Val="false" Pos="160,232" rotation="0" hflip="1" vflip="1" label="Rectangle-310" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-311" mainComp="false" Show_id="false" Show_Val="false" Pos="160,228" rotation="0" hflip="1" vflip="1" label="Rectangle-311" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-312" mainComp="false" Show_id="false" Show_Val="false" Pos="96,232" rotation="0" hflip="1" vflip="1" label="Rectangle-312" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-313" mainComp="false" Show_id="false" Show_Val="false" Pos="96,228" rotation="0" hflip="1" vflip="1" label="Rectangle-313" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-314" mainComp="false" Show_id="false" Show_Val="false" Pos="252,192" rotation="0" hflip="1" vflip="1" label="Rectangle-314" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="70 _px" V_size="47 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-315" mainComp="false" Show_id="false" Show_Val="false" Pos="252,224" rotation="0" hflip="1" vflip="1" label="Rectangle-315" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="15 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-316" mainComp="false" Show_id="false" Show_Val="false" Pos="252,248" rotation="0" hflip="1" vflip="1" label="Rectangle-316" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="30 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-328" mainComp="false" Show_id="false" Show_Val="false" Pos="232,184" rotation="0" hflip="1" vflip="1" label="Rectangle-328" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-329" mainComp="false" Show_id="false" Show_Val="false" Pos="272,188" rotation="0" hflip="1" vflip="1" label="Rectangle-329" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-330" mainComp="false" Show_id="false" Show_Val="false" Pos="272,176" rotation="0" hflip="1" vflip="1" label="Rectangle-330" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-331" mainComp="false" Show_id="false" Show_Val="false" Pos="272,192" rotation="0" hflip="1" vflip="1" label="Rectangle-331" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-332" mainComp="false" Show_id="false" Show_Val="false" Pos="232,180" rotation="0" hflip="1" vflip="1" label="Rectangle-332" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-333" mainComp="false" Show_id="false" Show_Val="false" Pos="272,180" rotation="0" hflip="1" vflip="1" label="Rectangle-333" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-334" mainComp="false" Show_id="false" Show_Val="false" Pos="232,188" rotation="0" hflip="1" vflip="1" label="Rectangle-334" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-335" mainComp="false" Show_id="false" Show_Val="false" Pos="232,192" rotation="0" hflip="1" vflip="1" label="Rectangle-335" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-336" mainComp="false" Show_id="false" Show_Val="false" Pos="232,176" rotation="0" hflip="1" vflip="1" label="Rectangle-336" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-337" mainComp="false" Show_id="false" Show_Val="false" Pos="272,184" rotation="0" hflip="1" vflip="1" label="Rectangle-337" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="15 _px" V_size="2 _px" Border="0 _px" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Ellipse" CircId="Ellipse-338" mainComp="false" Show_id="false" Show_Val="false" Pos="276,208" rotation="0" hflip="1" vflip="1" label="Ellipse-338" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="5 _px" V_size="5 _px" Border="0 _px" Z_Value="-1" Color="#aa0000" Opacity="1" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Led-54-lPin" endpinid="Tunnel-61-pin" pointList="-72,184,-68,184" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Led-66-lPin" endpinid="Tunnel-65-pin" pointList="12,92,16,92" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Led-53-lPin" endpinid="Tunnel-69-pin" pointList="64,52,72,52" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Tunnel-70-pin" endpinid="Led-59-lPin" pointList="188,52,192,52" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Tunnel-71-pin" endpinid="Led-58-lPin" pointList="236,100,240,100" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Tunnel-72-pin" endpinid="Led-57-lPin" pointList="292,152,300,152" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Tunnel-73-pin" endpinid="Led-56-lPin" pointList="324,184,328,184" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Tunnel-74-pin" endpinid="Led-55-lPin" pointList="356,220,360,220" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="Tunnel-78-pin" endpinid="Led-77-lPin" pointList="-28,136,-32,136" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="Tunnel-79-pin" endpinid="Led-4-lPin" pointList="-80,-144,-80,-144" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="Tunnel-80-pin" endpinid="Led-3-lPin" pointList="-24,-92,-24,-92" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Tunnel-83-pin" endpinid="Led-6-lPin" pointList="208,-44,208,-44" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Tunnel-84-pin" endpinid="Led-27-lPin" pointList="248,-88,248,-88" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="Tunnel-85-pin" endpinid="Led-26-lPin" pointList="304,-140,304,-140" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="Tunnel-86-pin" endpinid="Led-2-lPin" pointList="-192,-244,-192,-244" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Led-37-lPin" endpinid="Tunnel-87-pin" pointList="420,-240,420,-240" />
+
+<item itemtype="Connector" uid="Connector-93" startpinid="Fixed Voltage-90-outnod" endpinid="Tunnel-91-pin" pointList="-356,128,-304,128" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="Led-7-lPin" endpinid="Tunnel-81-pin" pointList="12,-48,12,-48" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="DcMotor-104-rPin" endpinid="Tunnel-103-pin" pointList="-108,12,-108,12" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Tunnel-102-pin" endpinid="DcMotor-104-lPin" pointList="-188,12,-188,12" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Tunnel-108-pin" endpinid="Fixed Voltage-107-outnod" pointList="-316,96,-356,96" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="Tunnel-75-pin" endpinid="Fixed Voltage-45-outnod" pointList="-304,152,-356,152" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="Tunnel-109-pin" endpinid="LedBar-106-led0-pinP" pointList="128,4,128,4" />
+
+<item itemtype="Connector" uid="Connector-99" startpinid="Tunnel-97-pin" endpinid="DcMotor-18-lPin" pointList="368,12,372,12" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Tunnel-119-pin" endpinid="Mega-21-GND0" pointList="632,64,644,64" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Tunnel-122-pin" endpinid="DcMotor-18-rPin" pointList="452,12,452,12" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="Tunnel-165-pin" endpinid="Hd44780-164-PinRS" pointList="-712,-128,-712,-124" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="Hd44780-164-PinRW" endpinid="Tunnel-166-pin" pointList="-704,-124,-704,-120" />
+
+<item itemtype="Connector" uid="Connector-135" startpinid="Hd44780-164-PinEn" endpinid="Tunnel-167-pin" pointList="-696,-124,-696,-128" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="Hd44780-164-dataPin4" endpinid="Tunnel-168-pin" pointList="-656,-124,-656,-128" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="Hd44780-164-dataPin5" endpinid="Tunnel-169-pin" pointList="-648,-124,-648,-128" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="Hd44780-164-dataPin6" endpinid="Tunnel-170-pin" pointList="-640,-124,-640,-128" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="Hd44780-164-dataPin7" endpinid="Tunnel-171-pin" pointList="-632,-124,-632,-128" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="Tunnel-117-pin" endpinid="Mega-21-5" pointList="632,-16,644,-16" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="Tunnel-174-pin" endpinid="Mega-21-31" pointList="684,-160,684,-160" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="Tunnel-178-pin" endpinid="Mega-21-35" pointList="700,-160,700,-160" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="Tunnel-177-pin" endpinid="Mega-21-45" pointList="740,-160,740,-160" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="Tunnel-176-pin" endpinid="Mega-21-47" pointList="748,-160,748,-160" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="Tunnel-173-pin" endpinid="Mega-21-49" pointList="756,-160,756,-160" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="Tunnel-172-pin" endpinid="Mega-21-51" pointList="764,-160,764,-160" />
+
+<item itemtype="Connector" uid="Connector-156" startpinid="Tunnel-207-pin" endpinid="Potentiometer-34-PinA" pointList="-624,184,-624,184" />
+
+<item itemtype="Connector" uid="Connector-157" startpinid="Potentiometer-34-PinB" endpinid="Tunnel-210-pin" pointList="-592,184,-592,184" />
+
+<item itemtype="Connector" uid="Connector-158" startpinid="Potentiometer-34-PinM" endpinid="Tunnel-211-pin" pointList="-608,200,-608,200" />
+
+<item itemtype="Connector" uid="Connector-159" startpinid="Mega-21-A0" endpinid="Tunnel-212-pin" pointList="788,-8,804,-8" />
+
+<item itemtype="Connector" uid="Connector-160" startpinid="Mega-21-5V00" endpinid="Tunnel-213-pin" pointList="788,32,808,32" />
+
+<item itemtype="Connector" uid="Connector-161" startpinid="Tunnel-215-pin" endpinid="Potentiometer-217-PinA" pointList="-4,196,-4,196" />
+
+<item itemtype="Connector" uid="Connector-166" startpinid="Potentiometer-217-PinB" endpinid="Tunnel-216-pin" pointList="28,196,28,196" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Tunnel-60-pin" endpinid="Led-43-lPin" pointList="-100,228,-104,228" />
+
+<item itemtype="Connector" uid="Connector-171" startpinid="Potentiometer-217-PinM" endpinid="Tunnel-214-pin" pointList="12,212,12,228" />
+
+<item itemtype="Connector" uid="Connector-173" startpinid="Potentiometer-237-PinM" endpinid="Tunnel-236-pin" pointList="128,296,128,332" />
+
+<item itemtype="Connector" uid="Connector-176" startpinid="Potentiometer-237-PinA" endpinid="Tunnel-233-pin" pointList="112,280,112,280" />
+
+<item itemtype="Connector" uid="Connector-177" startpinid="Tunnel-240-pin" endpinid="Potentiometer-237-PinB" pointList="144,280,144,280" />
+
+<item itemtype="Connector" uid="Connector-178" startpinid="Tunnel-271-pin" endpinid="Seven Segment-270-pin_a" pointList="-400,-104,-400,-104" />
+
+<item itemtype="Connector" uid="Connector-179" startpinid="Tunnel-272-pin" endpinid="Seven Segment-270-pin_b" pointList="-400,-96,-400,-96" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="Tunnel-273-pin" endpinid="Seven Segment-270-pin_c" pointList="-400,-88,-400,-88" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="Tunnel-274-pin" endpinid="Seven Segment-270-pin_d" pointList="-400,-80,-400,-80" />
+
+<item itemtype="Connector" uid="Connector-182" startpinid="Tunnel-275-pin" endpinid="Seven Segment-270-pin_e" pointList="-400,-72,-400,-72" />
+
+<item itemtype="Connector" uid="Connector-183" startpinid="Tunnel-276-pin" endpinid="Seven Segment-270-pin_f" pointList="-400,-64,-400,-64" />
+
+<item itemtype="Connector" uid="Connector-184" startpinid="Tunnel-277-pin" endpinid="Seven Segment-270-pin_g" pointList="-400,-56,-400,-56" />
+
+<item itemtype="Connector" uid="Connector-185" startpinid="Tunnel-278-pin" endpinid="Seven Segment-270-pin_dot" pointList="-384,-40,-384,-48" />
+
+<item itemtype="Connector" uid="Connector-186" startpinid="Tunnel-279-pin" endpinid="Tunnel-279-pin" pointList="-368,-48,-368,-48" />
+
+<item itemtype="Connector" uid="Connector-187" startpinid="Tunnel-280-pin" endpinid="Seven Segment-270-pin_commonb" pointList="-336,-48,-336,-48" />
+
+<item itemtype="Connector" uid="Connector-188" startpinid="Seven Segment-270-pin_commonc" endpinid="Tunnel-281-pin" pointList="-304,-48,-304,-48" />
+
+<item itemtype="Connector" uid="Connector-189" startpinid="Tunnel-282-pin" endpinid="Seven Segment-270-pin_commond" pointList="-272,-48,-272,-48" />
+
+<item itemtype="Connector" uid="Connector-190" startpinid="Tunnel-294-pin" endpinid="Mega-21-21" pointList="636,-128,644,-128" />
+
+<item itemtype="Connector" uid="Connector-191" startpinid="Tunnel-291-pin" endpinid="Mega-21-20" pointList="636,-120,644,-120" />
+
+<item itemtype="Connector" uid="Connector-192" startpinid="Tunnel-292-pin" endpinid="Mega-21-19" pointList="636,-112,644,-112" />
+
+<item itemtype="Connector" uid="Connector-193" startpinid="Tunnel-289-pin" endpinid="Mega-21-18" pointList="636,-104,644,-104" />
+
+<item itemtype="Connector" uid="Connector-194" startpinid="Tunnel-286-pin" endpinid="Mega-21-17" pointList="636,-96,644,-96" />
+
+<item itemtype="Connector" uid="Connector-195" startpinid="Tunnel-284-pin" endpinid="Mega-21-16" pointList="636,-88,644,-88" />
+
+<item itemtype="Connector" uid="Connector-196" startpinid="Tunnel-288-pin" endpinid="Mega-21-15" pointList="636,-80,644,-80" />
+
+<item itemtype="Connector" uid="Connector-197" startpinid="Tunnel-283-pin" endpinid="Mega-21-14" pointList="636,-72,644,-72" />
+
+<item itemtype="Connector" uid="Connector-198" startpinid="Tunnel-293-pin" endpinid="Mega-21-0" pointList="636,-56,644,-56" />
+
+<item itemtype="Connector" uid="Connector-199" startpinid="Tunnel-290-pin" endpinid="Mega-21-1" pointList="636,-48,644,-48" />
+
+<item itemtype="Connector" uid="Connector-200" startpinid="Tunnel-285-pin" endpinid="Mega-21-2" pointList="636,-40,644,-40" />
+
+<item itemtype="Connector" uid="Connector-201" startpinid="Tunnel-287-pin" endpinid="Mega-21-3" pointList="636,-32,644,-32" />
+
+</circuit>
